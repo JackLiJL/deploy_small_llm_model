@@ -7,6 +7,7 @@ app = FastAPI()
 class Request(BaseModel):
     prompt: str
 
+# Replace with your actual Ollama API URL
 OLLAMA_URL = "http://host.docker.internal:11434/api/generate"
 
 @app.post("/chat")
