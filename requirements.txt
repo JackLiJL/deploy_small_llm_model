@@ -1,3 +1,7 @@
 requests
 fastapi
 uvicorn
+structlog
+slowapi
+httpx
+pytest
