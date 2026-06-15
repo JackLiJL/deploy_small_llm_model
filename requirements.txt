@@ -5,3 +5,4 @@ structlog
 slowapi
 httpx
 pytest
+pytest-asyncio
